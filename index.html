@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+
+		<title>Virtual Piano</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+
+		<body>
+			<div class="outerHead">
+				<div class="innerHead">
+					<h1>Piano</h1>
+				</div>
+				<div class="noteMainBox">
+				</div>
+			</div>
+			<H2>Key</H2>
+			<div class="noteBox">
+				<span></span>
+			</div>
+			<div class="noteIcon">
+
+			</div>
+
+			<div class="framePiano">
+	  	<div id="piano">
+	    	<ol id="leftHalf">
+	      	<li class="ivory" id="C">C
+						<audio src="pianonotes/c1.wav" type="audio/wav" id="cSound"></audio>
+					</li>
+	      	<li class="ebony" id="Cs">C#
+						<audio src="pianonotes/c1s.wav" type="audio/wav" id="csSound"></audio>
+					</li>
+	      	<li class="ivory" id="D">D
+						<audio src="pianonotes/d1.wav" type="audio/wav" id="dSound"></audio>
+					</li>
+	      	<li class="ebony" id="Ds">D#
+						<audio src="pianonotes/d1s.wav" type="audio/wav" id="dsSound"></audio>
+					</li>
+	      	<li class="ivory" id="E" data-key='68'>E
+						<audio src="pianonotes/e1.wav" type="audio/wav" id="eSound"></audio>
+					</li>
+	      	<li class="ivory" id="F" data-key='70'>F
+						<audio src="pianonotes/f1.wav" type="audio/wav" id="fSound"></audio>
+					</li>
+	      	<li class="ebony" id="Fs" data-key='84'>F#
+						<audio src="pianonotes/f1s.wav" type="audio/wav" id="fsSound"></audio>
+					</li>
+	      	<li class="ivory" id="G" data-key='71'>G
+						<audio src="pianonotes/g1.wav" type="audio/wav" id="gSound"></audio>
+					</li>
+	      	<li class="ebony" id="Gs" data-key='89'>G#
+						<audio src="pianonotes/g1s.wav" type="audio/wav" id="gsSound"></audio>
+					</li>
+	      	<li class="ivory" id="A" data-key='72'>A
+						<audio src="pianonotes/a1.wav" type="audio/wav" id="aSound"></audio>
+					</li>
+		      <li class="ebony" id="As" data-key='85'>A#
+						<audio src="pianonotes/a1s.wav" type="audio/wav" id="asSound"></audio>
+					</li>
+	      	<li class="ivory" id="B" data-key='74'>B
+						<audio src="pianonotes/b1.wav" type="audio/wav" id="bSound"></audio>
+					</li>
+
+	    	</ol>
+	    	<ol id="rightHalf">
+	      	<li class="ivory" id="C2">C
+						<audio src="pianonotes/c2.wav" type="audio/wav" id="c2Sound"></audio>
+					</li>
+	      	<li class="ebony" id="C2s">C#
+						<audio src="pianonotes/c2s.wav" type="audio/wav" id="c2sSound"></audio>
+					</li>
+	      	<li class="ivory" id="D2">D
+						<audio src="pianonotes/d2.wav" type="audio/wav" id="d2Sound"></audio>
+					</li>
+	      	<li class="ebony" id="D2s">D#
+						<audio src="pianonotes/d2s.wav" type="audio/wav" id="d2sSound"></audio>
+					</li>
+	      	<li class="ivory" id="E2">E
+						<audio src="pianonotes/e2.wav" type="audio/wav" id="e2Sound"></audio>
+					</li>
+		      <li class="ivory" id="F2">F
+						<audio src="pianonotes/f2.wav" type="audio/wav" id="f2Sound"></audio>
+					</li>
+	      	<li class="ebony" id="F2s">F#
+						<audio src="pianonotes/f2s.wav" type="audio/wav" id="f2sSound"></audio>
+					</li>
+	      	<li class="ivory" id="G2">G
+						<audio src="pianonotes/g2.wav" type="audio/wav" id="g2Sound"></audio>
+					</li>
+	      	<li class="ebony" id="G2s">G#
+						<audio src="pianonotes/g2s.wav" type="audio/wav" id="g2sSound"></audio>
+					</li>
+	      	<li class="ivory" id="A2">A
+						<audio src="pianonotes/a2.wav" type="audio/wav" id="a2Sound"></audio>
+					</li>
+	      	<li class="ebony" id="A2s">A#
+						<audio src="pianonotes/a2s.wav" type="audio/wav" id="a2sSound"></audio>
+					</li>
+	      	<li class="ivory" id="B2">B
+						<audio src="pianonotes/b2.wav" type="audio/wav" id="b2Sound"></audio>
+					</li>
+	    	</ol>
+	  	</div>
+		</div>
+		<script type="text/javascript" src="js/piano.js"></script>
+	</body>
+</html>
