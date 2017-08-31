@@ -10,25 +10,45 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
-
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.scss">
 		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
-
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
 	</head>
 
 		<body>
 			<div class="outerHead">
 				<div class="innerHead">
+					<h3>devRomo</h3>
 					<h1>Piano</h1>
 				</div>
 				<div class="noteMainBox">
 				</div>
 			</div>
+
+			<!-- Metronome -->
+			<span class="bpmHead">BPM</span>
+			<div class="bpm">
+				<input id="bpm" type="number" min="20" step="1" value="120">
+			</div>
+
+			<input type="checkbox" id="on">
+
+			<div class="metroFrame">
+				<div class="metronome">
+					<div class="metronome__blink"></div>
+					<div class="metronome__viz">
+						<div class="metronome__line"></div>
+						<div class="metronome__indicator"></div>
+					</div>
+				</div>
+			</div>
+
+			<audio src="tick.mp3" type="audio/mpeg" id="click"></audio>
+
 			<H2>Key</H2>
 			<div class="noteBox">
-				<span></span>
+				<span class="noteWrite"></span>
 			</div>
 			<div class="noteIcon">
 
@@ -115,6 +135,12 @@
 	    	</ol>
 	  	</div>
 		</div>
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js"></script>
 		<script type="text/javascript" src="js/piano.js"></script>
+		<script type="text/javascript" src="js/metronome.js"></script>
+
+
 	</body>
 </html>
