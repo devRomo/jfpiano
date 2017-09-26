@@ -1,61 +1,85 @@
 $(document).ready(function(){
 //C Note
   $("#C").on("click", function(){
+      document.getElementById("cSound").pause();
+      document.getElementById("cSound").currentTime = 0;
       document.getElementById("cSound").play();
       $(".noteWrite").text("C");
   });
 //C# Note
   $("#Cs").on("click", function(){
+      document.getElementById("csSound").pause();
+      document.getElementById("csSound").currentTime = 0;
       document.getElementById("csSound").play();
       $(".noteWrite").text("C#");
   });
 //D Note
   $("#D").on("click", function(){
+      document.getElementById("dSound").pause();
+      document.getElementById("dSound").currentTime = 0;
       document.getElementById("dSound").play();
       $(".noteWrite").text("D");
   });
 //D# Note
 $("#Ds").on("click", function(){
+    document.getElementById("dsSound").pause();
+    document.getElementById("dsSound").currentTime = 0;
     document.getElementById("dsSound").play();
     $(".noteWrite").text("D#");
 });
 //E Note
 $("#E").on("click", function(){
+    document.getElementById("eSound").pause();
+    document.getElementById("eSound").currentTime = 0;
     document.getElementById("eSound").play();
     $(".noteWrite").text("E");
 });
 //F Note
 $("#F").on("click", function(){
+    document.getElementById("fSound").pause();
+    document.getElementById("fSound").currentTime = 0;
     document.getElementById("fSound").play();
     $(".noteWrite").text("F");
 });
 //F# Note
 $("#Fs").on("click", function(){
+    document.getElementById("fsSound").pause();
+    document.getElementById("fsSound").currentTime = 0;
     document.getElementById("fsSound").play();
     $(".noteWrite").text("F#");
 });
 //G Note
 $("#G").on("click", function(){
+    document.getElementById("gSound").pause();
+    document.getElementById("gSound").currentTime = 0;
     document.getElementById("gSound").play();
     $(".noteWrite").text("G");
 });
 //G# Note
 $("#Gs").on("click", function(){
+    document.getElementById("gsSound").pause();
+    document.getElementById("gsSound").currentTime = 0;
     document.getElementById("gsSound").play();
     $(".noteWrite").text("G#");
 });
 //A Note
 $("#A").on("click", function(){
+    document.getElementById("aSound").pause();
+    document.getElementById("aSound").currentTime = 0;
     document.getElementById("aSound").play();
     $(".noteWrite").text("A");
 });
 //A# Note
 $("#As").on("click", function(){
+    document.getElementById("asSound").pause();
+    document.getElementById("asSound").currentTime = 0;
     document.getElementById("asSound").play();
     $(".noteWrite").text("A#");
 });
 //B Note
 $("#B").on("click", function(){
+    document.getElementById("bSound").pause();
+    document.getElementById("bSound").currentTime = 0;
     document.getElementById("bSound").play();
     $(".noteWrite").text("B");
 });
@@ -64,61 +88,85 @@ $("#B").on("click", function(){
 
 //C2 Note
   $("#C2").on("click", function(){
+      document.getElementById("c2Sound").pause();
+      document.getElementById("c2Sound").currentTime = 0;
       document.getElementById("c2Sound").play();
       $(".noteWrite").text("C2");
   });
 //C2# Note
   $("#C2s").on("click", function(){
+      document.getElementById("c2sSound").pause();
+      document.getElementById("c2sSound").currentTime = 0;
       document.getElementById("c2sSound").play();
       $(".noteWrite").text("C2#");
   });
 //D2 Note
   $("#D2").on("click", function(){
+      document.getElementById("d2Sound").pause();
+      document.getElementById("d2Sound").currentTime = 0;
       document.getElementById("d2Sound").play();
       $(".noteWrite").text("D2");
   });
 //D2# Note
 $("#D2s").on("click", function(){
+    document.getElementById("d2sSound").pause();
+    document.getElementById("d2sSound").currentTime = 0;
     document.getElementById("d2sSound").play();
     $(".noteWrite").text("D2#");
 });
 //E2 Note
 $("#E2").on("click", function(){
+    document.getElementById("e2Sound").pause();
+    document.getElementById("e2Sound").currentTime = 0;
     document.getElementById("e2Sound").play();
     $(".noteWrite").text("E2");
 });
 //F2 Note
 $("#F2").on("click", function(){
+    document.getElementById("f2Sound").pause();
+    document.getElementById("f2Sound").currentTime = 0;
     document.getElementById("f2Sound").play();
     $(".noteWrite").text("F2");
 });
 //F2# Note
 $("#F2s").on("click", function(){
+    document.getElementById("f2sSound").pause();
+    document.getElementById("f2sSound").currentTime = 0;
     document.getElementById("f2sSound").play();
     $(".noteWrite").text("F2#");
 });
 //G Note
 $("#G2").on("click", function(){
+    document.getElementById("g2Sound").pause();
+    document.getElementById("g2Sound").currentTime = 0;
     document.getElementById("g2Sound").play();
     $(".noteWrite").text("G2");
 });
 //G# Note
 $("#G2s").on("click", function(){
+    document.getElementById("g2sSound").pause();
+    document.getElementById("g2sSound").currentTime = 0;
     document.getElementById("g2sSound").play();
     $(".noteWrite").text("G2#");
 });
 //A Note
 $("#A2").on("click", function(){
+    document.getElementById("a2Sound").pause();
+    document.getElementById("a2Sound").currentTime = 0;
     document.getElementById("a2Sound").play();
     $(".noteWrite").text("A2");
 });
 //A# Note
 $("#A2s").on("click", function(){
+    document.getElementById("a2sSound").pause();
+    document.getElementById("a2sSound").currentTime = 0;
     document.getElementById("a2sSound").play();
     $(".noteWrite").text("A2#");
 });
 //B Note
 $("#B2").on("click", function(){
+    document.getElementById("b2Sound").pause();
+    document.getElementById("b2Sound").currentTime = 0;
     document.getElementById("b2Sound").play();
     $(".noteWrite").text("B2");
 });
